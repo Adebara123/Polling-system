@@ -9,6 +9,7 @@ async function main() {
   console.log(`This is the factory contract address  ${Polling}`);
   const ID = 1;
   const vote = await Polling.vote(ID);
+//   const viewVote = await 
 }
 
 // We recommend this pattern to be able to use async/await everywhere
